@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.jmsbrdy.ynabadell</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>index.js</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Minute</key>
+        <integer>00</integer>
+        <key>Hour</key>
+        <integer>20</integer>
+    </dict>
+    <key>WorkingDirectory</key>
+    <string>/Users/james/Code/goodgravy/ynabadell</string>
+    <key>StandardOutPath</key>
+    <string>/Users/james/Code/goodgravy/ynabadell/logs/ynabadell.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/james/Code/goodgravy/ynabadell/logs/ynabadell.err</string>
+</dict>
+</plist>
+
