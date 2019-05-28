@@ -29,7 +29,7 @@ const transformPayee = (payee) => {
 
 const inferMemo = (cardNumber) => {
   switch (cardNumber.slice(-4)) {
-    case '2037':
+    case '2045':
       return 'Odette';
     case '8020':
       return 'Jim';
