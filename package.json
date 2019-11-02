@@ -12,7 +12,7 @@
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.16.0",
     "chai": "^4.2.0",
-    "csv-parse": "^4.3.0",
+    "csv-parse": "^4.4.6",
     "csv-stringify": "^5.1.2",
     "dotenv": "^6.2.0",
     "mocha": "^5.2.0",
