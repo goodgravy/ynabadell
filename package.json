@@ -9,7 +9,7 @@
   "author": "James Brady <james@jmsbrdy.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "axios-mock-adapter": "^1.16.0",
     "chai": "^4.2.0",
     "csv-parse": "^4.8.3",
