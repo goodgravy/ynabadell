@@ -43,7 +43,8 @@ const getConfig = () => {
 
 async function main() {
   const config = getConfig();
-  const sabadellTransactions = await extractor.transactions(config.sabadell, logger);
+  // const sabadellTransactions = await extractor.transactionsFromSite(config.sabadell, logger);
+  const sabadellTransactions = await extractor.transactionsFromFile('transactions.txt', logger);
   const ynabTransactions = transformer.transform(sabadellTransactions, logger);
   await loader.load(ynabTransactions, config.ynab, logger);
   logger.info('Done');
